@@ -94,7 +94,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 html,
 body {
   padding: 0;
@@ -137,7 +137,7 @@ body {
       calc(var(--brand-lightness) / 1.5)
   );
   --text1-dark: hsl(var(--brand-hue) 15% 85%);
-  --text2-dark: hsl(var(--brand-hue) 5% 65%);
+  --text2-dark: hsl(var(--brand-hue) 15% 55%);
   --surface1-dark: hsl(var(--brand-hue) 5% 7%);
   --surface2-dark: hsl(var(--brand-hue) 5% 11%);
   --surface3-dark: hsl(var(--brand-hue) 5%  20%);
@@ -369,16 +369,16 @@ form > div {
   background-color: var(--text2);
 }
 
-.rad-shadow {
-  border: 1px solid hsl(var(--brand-hue) 10% 50% / 15%);
-  box-shadow: 0 1rem .5rem -.5rem;
-  box-shadow:
-    0 2.8px 2.2px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)),
-    0 6.7px 5.3px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .01)),
-    0 12.5px 10px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)),
-    0 22.3px 17.9px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)),
-    0 41.8px 33.4px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)),
-    0 100px 80px hsl(var(--surface-shadow) / var(--shadow-strength))
-;
-}
+/*.rad-shadow {*/
+/*  border: 1px solid hsl(var(--brand-hue) 10% 50% / 15%);*/
+/*  box-shadow: 0 1rem .5rem -.5rem;*/
+/*  box-shadow:*/
+/*    0 2.8px 2.2px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)),*/
+/*    0 6.7px 5.3px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .01)),*/
+/*    0 12.5px 10px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)),*/
+/*    0 22.3px 17.9px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .02)),*/
+/*    0 41.8px 33.4px hsl(var(--surface-shadow) / calc(var(--shadow-strength) + .03)),*/
+/*    0 100px 80px hsl(var(--surface-shadow) / var(--shadow-strength))*/
+/*;*/
+/*}*/
 </style>
